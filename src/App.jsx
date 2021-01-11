@@ -7,6 +7,8 @@ import Primeiro from './components/Primeiro'
 import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
 import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'
+import CondicionalIf from './components/CondicionalIf'
 
 export default () =>
     <div className="App">
@@ -30,5 +32,11 @@ export default () =>
         </Card>
         <Card titulo="Repetição">
             <Repeticao />
+        </Card>
+        <Card titulo="Condicional">
+            <Condicional numero={9} />
+        </Card>
+        <Card titulo="Condicional com if">
+            <CondicionalIf numero={10} />
         </Card>
     </div>
