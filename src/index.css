@@ -2,10 +2,12 @@ body {
     background: grey;
     color: whitesmoke;
 
+    font-size: 1rem;
+    font-weight: 200;
     font-family: 'Nunito';
     text-align: center;
 }
 
 h1 {
-    font-weight: 200;
+    font-weight: 300;
 }
