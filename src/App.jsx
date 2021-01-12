@@ -9,6 +9,8 @@ import ComFilhos from './components/ComFilhos'
 import Repeticao from './components/Repeticao'
 import Condicional from './components/Condicional'
 import CondicionalIf from './components/CondicionalIf'
+import Maiusculo from './components/Maiusculo'
+// import MaiusculoFilhos from './components/MaiusculoFilhos.jsx'
 
 export default () =>
     <div className="App">
@@ -24,7 +26,7 @@ export default () =>
                 <ul>
                     <li>Ana</li>
                     <li>Maria</li>
-                    <li>Daniel</li>
+                    <li>Daniela</li>
                     <li>Rodrigo</li>
                     <li>Carlos</li>
                 </ul>
@@ -39,4 +41,18 @@ export default () =>
         <Card titulo="Condicional com if">
             <CondicionalIf numero={10} />
         </Card>
+        <Card titulo="Maiusculo">
+            <Maiusculo frase="Algo escrito aqui" />
+        </Card>
+        {/* <Card titulo="Maiusculo com filhos">
+            <MaiusculoFilhos>
+                <div>
+                    <p>Frase</p>
+                    <span>algo</span>
+                </div>
+                <div>
+                    <p>Frase 2</p>
+                </div>
+            </MaiusculoFilhos>
+        </Card> */}
     </div>
