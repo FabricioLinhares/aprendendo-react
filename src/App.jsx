@@ -12,7 +12,7 @@ import CondicionalIf from './components/CondicionalIf'
 import Maiusculo from './components/Maiusculo'
 // import MaiusculoFilhos from './components/MaiusculoFilhos.jsx'
 
-export default () =>
+const App = () =>
     <div className="App">
         <Card titulo="Primeiro Componente">
             <Primeiro />
@@ -56,3 +56,5 @@ export default () =>
             </MaiusculoFilhos>
         </Card> */}
     </div>
+
+export default App

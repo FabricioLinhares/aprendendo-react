@@ -1,6 +1,4 @@
-import React from 'react'
-
-export default props => {
+const MaiusculoFilhos = props => {
     console.log(props)
     function upperPhrases(componentChildren) {
         const isMoreThanOneChild = Array.isArray(componentChildren)
@@ -15,3 +13,5 @@ export default props => {
 
     return props.children
 }
+
+export default MaiusculoFilhos

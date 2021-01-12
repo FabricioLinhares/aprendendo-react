@@ -1,5 +1,5 @@
-import React from 'react'
-
-export default props => {
+const Maiusculo = props => {
     return props.frase.toUpperCase()
 }
+
+export default Maiusculo
