@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Input = props => {
-    let nome = 'Pedro'
+    const [nome, setNome] = useState('Pedro')
 
     return (
         <>
-            <input type="text" value={nome}></input>
+            <h3>{nome}</h3>
+            <input type="text" value={nome}
+                onChange={e => setNome(e.target.value)}/>
         </>
     )
 }

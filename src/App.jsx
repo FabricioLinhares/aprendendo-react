@@ -16,7 +16,7 @@ import Maiusculo from './components/basicos/Maiusculo'
 import Pai from './components/comunicacao/direta/Pai'
 import Super from './components/comunicacao/indireta/Super'
 
-import Input from './components/form/Input.jsx'
+import Input from './components/form/Input'
 
 
 const App = () =>
@@ -57,8 +57,8 @@ const App = () =>
         <Card titulo="Comunicação indireta">
             <Super></Super>
         </Card>
-        <Card titulo="Input">
-            <Super></Super>
+        <Card titulo="Input" cor="#D96459">
+            <Input></Input>
         </Card>
 
         {/* <Card titulo="Maiusculo com filhos">
