@@ -20,6 +20,8 @@ import Input from './components/form/Input'
 
 import Contador from './components/contador/Contador'
 
+import Mega from './components/mega/Mega'
+
 const App = () =>
     <div className="App">
         <h1>Fundamentos React</h1>
@@ -66,6 +68,9 @@ const App = () =>
             </Card>
             <Card titulo="Contador" cor="#008BBA">
                 <Contador passo={10} valor={100}></Contador>
+            </Card>
+            <Card titulo="Gerador da Mega-Sena" cor="#008BBA">
+                <Mega quantidade={8}/>
             </Card>
 
             {/* <Card titulo="Maiusculo com filhos">
