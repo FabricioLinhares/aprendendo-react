@@ -3,13 +3,13 @@ import React from 'react'
 
 import Card from './components/layout/Card'
 
-import Primeiro from './components/Primeiro'
-import ComParametro from './components/ComParametro'
-import ComFilhos from './components/ComFilhos'
-import Repeticao from './components/Repeticao'
-import Condicional from './components/Condicional'
-import CondicionalIf from './components/CondicionalIf'
-import Maiusculo from './components/Maiusculo'
+import Primeiro from './components/basicos/Primeiro'
+import ComParametro from './components/basicos/ComParametro'
+import ComFilhos from './components/basicos/ComFilhos'
+import Repeticao from './components/basicos/Repeticao'
+import Condicional from './components/basicos/Condicional'
+import CondicionalIf from './components/basicos/CondicionalIf'
+import Maiusculo from './components/basicos/Maiusculo'
 // import MaiusculoFilhos from './components/MaiusculoFilhos.jsx'
 
 const App = () =>
