@@ -10,8 +10,8 @@ import Repeticao from './components/basicos/Repeticao'
 import Condicional from './components/basicos/Condicional'
 import CondicionalIf from './components/basicos/CondicionalIf'
 
-import Maiusculo from './components/basicos/Maiusculo'
-// import MaiusculoFilhos from './components/MaiusculoFilhos.jsx'
+import Maiusculo from './components/outros/Maiusculo'
+import MaiusculoFilhos from './components/outros/MaiusculoFilhos'
 
 import Pai from './components/comunicacao/direta/Pai'
 import Super from './components/comunicacao/indireta/Super'
@@ -54,8 +54,19 @@ const App = () =>
             <Card titulo="Condicional com if" cor="#5A6A62">
                 <CondicionalIf numero={10} />
             </Card>
-            <Card titulo="Maiusculo" cor="#FA6900">
+            <Card titulo="Maiusculo no props" cor="#FA6900">
                 <Maiusculo frase="Algo escrito aqui" />
+            </Card>
+            <Card titulo="Maiusculo com filhos" cor="#354458">
+                <MaiusculoFilhos>
+                    <div>
+                        <p>Frase</p>
+                        <span>algo</span>
+                    </div>
+                    <div>
+                        <p>Frase 2</p>
+                    </div>
+                </MaiusculoFilhos>
             </Card>
             <Card titulo="Comunicação direta" cor="#F2AE72">
                 <Pai sobrenome="Freitas"></Pai>
@@ -72,18 +83,6 @@ const App = () =>
             <Card titulo="Gerador da Mega-Sena" cor="#008BBA">
                 <Mega quantidade={8}/>
             </Card>
-
-            {/* <Card titulo="Maiusculo com filhos">
-                <MaiusculoFilhos>
-                    <div>
-                        <p>Frase</p>
-                        <span>algo</span>
-                    </div>
-                    <div>
-                        <p>Frase 2</p>
-                    </div>
-                </MaiusculoFilhos>
-            </Card> */}
         </div>
         
     </div>
