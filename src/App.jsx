@@ -22,6 +22,8 @@ import Contador from './components/contador/Contador'
 
 import Mega from './components/mega/Mega'
 
+import ContadorRedux from './components/redux/ContadorRedux'
+
 const App = () =>
     <div className="App">
         <h1>Fundamentos React</h1>
@@ -80,8 +82,11 @@ const App = () =>
             <Card titulo="Contador" cor="#008BBA">
                 <Contador passo={10} valor={100}></Contador>
             </Card>
-            <Card titulo="Gerador da Mega-Sena" cor="#008BBA">
+            <Card titulo="Gerador da Mega-Sena" cor="#59C4C5">
                 <Mega quantidade={8}/>
+            </Card>
+            <Card titulo="Contador - Redux" cor="#FCEBB6">
+                <ContadorRedux/>
             </Card>
         </div>
         
